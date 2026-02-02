@@ -1,0 +1,23 @@
+{
+  "name": "firebase-data",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/TeetyK/firebase-data-test#readme",
+  "bugs": {
+    "url": "https://github.com/TeetyK/firebase-data-test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeetyK/firebase-data-test.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "firebase": "^12.8.0"
+  }
+}
