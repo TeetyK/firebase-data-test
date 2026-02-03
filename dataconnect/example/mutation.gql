@@ -1,0 +1,14 @@
+# # Create a movie based on user input
+mutation CreateMovie(
+  $title: String!
+  $genre: String!
+  $imageUrl: String!
+) @auth(level: PUBLIC) {
+  movie_insert(
+    data: {
+      title: $title
+      genre: $genre
+      imageUrl: $imageUrl
+    }
+  )
+}
